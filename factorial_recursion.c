@@ -1,5 +1,6 @@
-#include <conio.h>
 #include <stdio.h>
+#include <conio.h>
+
 int fact(int num)
 {
     int ans = num;

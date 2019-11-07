@@ -5,10 +5,9 @@ void TowerOfHanoi(int n,char START,char AUX,char END)
 {
     if(n>=1)
     {
-        int no = 1;
         TowerOfHanoi(n-1,START,END,AUX);
-        no++;
-        printf("\n%d.)%d is move %c to %c",no,n,START,END);
+
+        printf("\n%d is move %c to %c",n,START,END);
         
         TowerOfHanoi(n-1,AUX,START,END);
     }
