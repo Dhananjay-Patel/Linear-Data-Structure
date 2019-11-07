@@ -1,5 +1,5 @@
-# include<conio.h>
-# include<stdio.h>
+#include <conio.h>
+#include <stdio.h>
 int fact(int num)
 {
     int ans = num;
@@ -15,11 +15,10 @@ int fact(int num)
     }
     return ans;
 }
-int main()
+void main()
 {
     int num;
     printf("Enter num:");
     scanf("%d", &num);
     printf("Factorial of %d is %d", num, fact(num));
-    return 0;
 }
